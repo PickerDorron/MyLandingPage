@@ -14,21 +14,22 @@ body{
 }
 a{
 	color: inherit;
+	text-decoration: none;
 }
 a:hover{
 	color: #c9ada7;
 }
 
-.background{
+.profile-bg{
 	width: 100%;
 	height: 1080px;
-	background-color: #22223b;
+	background-color: #33334c
 }
-
 .profile{
 	height: 1080px;
+	width: 100%;
 	/*background-color: #22223b;*/
-	background-color: #4a4e69;
+	background-color: #33334c
 }
 .profile-logo .logo{
 	display: inline-block;
@@ -40,16 +41,32 @@ a:hover{
 	padding-left: 4rem;
 	font-weight: 700;
 	font-size: 7rem;
+	line-height: 120%;
+	text-align: left;
+}
+.profile-name-t{
+	display: block;
+	padding-left: 0.1rem;
 }
 .profile-name-b{
-	font-size: 10rem;
-	line-height: 20%;
+	color: #c9ada7;
+	display: block;
+	font-size: 8rem;
 }
 .profile-name-e{
-
+	line-height: 20%;
 }
 .profile-link{
 	font-size: 64px;
-	margin-top: 4rem;
+	margin-top: 1rem;
 	padding-left: 5rem;
+}
+
+.services-bg{
+	width: 100%;
+	height: 700px;
+	background-color: #22223b
+}
+.services{
+
 }
