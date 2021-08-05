@@ -5,7 +5,7 @@
 }
 body{
 	color: #f2e9e4;
-	font-size: 32px;
+	font-size: 24px;
 	font-family: 'Miltonian', cursive;
 	font-family: 'Open Sans', sans-serif;
 	margin: 0;
@@ -22,51 +22,52 @@ a:hover{
 
 .profile-bg{
 	width: 100%;
-	height: 1080px;
+	height: 720px;
 	background-color: #33334c
 }
 .profile{
-	height: 1080px;
+	height: 720px;
 	width: 100%;
 	/*background-color: #22223b;*/
 	background-color: #33334c
+}
+.profile-logo{
+	padding-top: 1.2rem;
+	padding-left: 1rem;
 }
 .profile-logo .logo{
 	display: inline-block;
 	height: 100px;
 	width: 100px;
-	margin-left: 4.5rem;
-	margin-top: 4rem;
-	margin-bottom: 4rem;
 }
 .profile-name{
-	padding-left: 4rem;
+	padding-top: 3rem;
 	font-weight: 700;
-	font-size: 7rem;
 	line-height: 120%;
 	text-align: left;
 }
 .profile-name-t{
-	display: block;
-	padding-left: 0.1rem;
+	padding-left: 0.3rem;
+	font-size: 7rem;
+	padding-top: 4rem;
 }
 .profile-name-b{
 	color: #c9ada7;
-	display: block;
 	font-size: 8rem;
+	padding-top: 7rem;
 }
 .profile-name-e{
 	line-height: 20%;
 }
 .profile-link{
-	font-size: 64px;
-	margin-top: 1rem;
-	padding-left: 5rem;
+	padding-top: 5.5rem;
+	padding-left: 0.7rem;
+	font-size: 3rem;
 }
 
 .services-bg{
 	width: 100%;
-	height: 700px;
+	height: 980px;
 	background-color: #22223b
 }
 .services{
