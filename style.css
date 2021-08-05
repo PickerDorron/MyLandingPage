@@ -33,9 +33,11 @@ a:hover{
 }
 .profile-logo .logo{
 	display: inline-block;
-	height: 200px;
-	width: 200px;
-	margin-left: 1.5rem;
+	height: 100px;
+	width: 100px;
+	margin-left: 4.5rem;
+	margin-top: 4rem;
+	margin-bottom: 4rem;
 }
 .profile-name{
 	padding-left: 4rem;
