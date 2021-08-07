@@ -1,0 +1,1 @@
+let myStory_link = document.getElementById("myStory-link");

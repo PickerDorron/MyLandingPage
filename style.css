@@ -16,9 +16,6 @@ a{
 	color: inherit;
 	text-decoration: none;
 }
-a:hover{
-	color: #c9ada7;
-}
 
 .profile-bg{
 	width: 100%;
@@ -56,13 +53,44 @@ a:hover{
 	font-size: 8rem;
 	padding-top: 7rem;
 }
-.profile-name-e{
-	line-height: 20%;
-}
 .profile-link{
 	padding-top: 5.5rem;
 	padding-left: 0.7rem;
 	font-size: 3rem;
+}
+.profile-link a:hover{
+	transition: 300ms;
+	font-size: 150%;
+	color: #c9ada7;
+	text-shadow: 0 0 10rem 10rem #000;
+}
+.profile-link a:not(:hover){
+	transition: 300ms;
+	font-size: 100%;
+	color: inherit;
+}
+
+.nav{
+	height: 6rem;
+	font-size: 2rem;
+}
+.nav-text{
+	display: block;
+}
+.nav-text:hover{
+	transition: 300ms;
+	color: #c9ada7;
+}
+.nav-text:not(:hover){
+	transition: 300ms;
+	color: inherit;
+}
+.nav-effect{
+	text-align: center;
+	line-height: 0;
+}
+.nav-effect{
+	visibility: hidden;
 }
 
 .services-bg{
@@ -72,4 +100,20 @@ a:hover{
 }
 .services{
 
+}
+
+
+.card{
+	background-color: #c9ada7;
+	color: #22223b;
+	box-shadow: 0 0 3rem 1rem rgba(0, 0, 0, 0.3);
+	width: 20rem;
+}
+.card:hover{
+	transition: 300ms;
+	transform: scale(1.2);
+}
+.card:not(:hover){
+	transition: 300ms;
+	transform: scale(1);
 }
